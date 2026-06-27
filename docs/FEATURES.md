@@ -6,11 +6,9 @@
 
 ### Stats Dashboard
 Five live stat cards shown at the top of the page:
-- **Total** — total number of tasks
-- **Active** — tasks not yet completed
-- **Done** — completed tasks
-- **Urgent** — high-priority active tasks
-- **Overdue** — active tasks past their due date
+- **Total Task** — total number of tasks
+- **Completed** — completed tasks
+- **Pending** — active tasks need to do
 
 Stats update immediately on any action.
 
@@ -25,7 +23,6 @@ Click **+ Add New Task** to expand the create form. Fields:
 | Description | No       | Longer context or detail                       |
 | Priority    | No       | High / Medium (default) / Low                  |
 | Due Date    | No       | Date picker; enforces future dates             |
-| Tags        | No       | Press Enter or comma to add multiple tags      |
 
 Pressing **Enter** in the title field submits the form. Cancel collapses the form without saving.
 
@@ -37,7 +34,7 @@ Each task card shows:
 - **Completion checkbox** — click to toggle done/undone without opening the task
 - **Title** — struck through when completed
 - **Description** (truncated to one line)
-- **Priority badge** — color-coded: 🔴 High / 🟠 Medium / 🟢 Low
+- **Priority badge** : ❗High / ⚠️Medium / ⬇️Low
 - **Due date** — turns red and shows "overdue" if past due and not completed
 - **Tags** — small chips for each tag
 - **Subtask progress** — e.g. `☑ 2/3` if subtasks exist
@@ -50,10 +47,8 @@ Clicking anywhere on the card (except the checkbox and action buttons) navigates
 
 ### Filtering & Search
 
-**Status tabs:** All / Active / Completed  
-**Priority filter:** dropdown to show only High, Medium, or Low priority tasks  
+**Status tabs:** All / Active / Completed / High Priority
 **Search:** instant text search across task title and description  
-**Sort order:** Newest first / Due date / Priority / Title A–Z
 
 All filters combine. For example: Active + High priority + search "design" shows only active, high-priority tasks containing "design."
 
