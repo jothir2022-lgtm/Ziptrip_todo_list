@@ -6,7 +6,7 @@ A multi-page todo application with a **React** frontend and **Node.js/Express** 
 ## Project Links
 
 - **GitHub Repository:** https://github.com/jothir2022-lgtm/Ziptrip_todo_list
-- **Live Demo (if available):** https://jothir2022-lgtm.github.io/todo_list/
+- **Live Demo :** https://jothir2022-lgtm.github.io/todo_list/
 
 ---
 
