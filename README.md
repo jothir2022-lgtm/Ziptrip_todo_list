@@ -3,6 +3,12 @@
 A multi-page todo application with a **React** frontend and **Node.js/Express** backend. Data is persisted in a local JSON file.
 
 ---
+## Project Links
+
+- **GitHub Repository:** https://github.com/your-username/ziptrrip-todo-app
+- **Live Demo (if available):** https://jothir2022-lgtm.github.io/todo_list/
+
+---
 
 ## Tech Stack
 
@@ -49,23 +55,7 @@ todo-app/
 ## Quick Start
 
 ### 1. Start the Backend
-
-```bash
-cd backend
-npm install
-npm start
-# API runs at http://localhost:5000
-```
-
 ### 2. Start the Frontend
-
-```bash
-cd frontend
-npm install
-npm start
-# App runs at http://localhost:3000
-```
-
 The frontend proxies `/api` requests to the backend via the `"proxy"` field in `frontend/package.json`.
 
 ---
