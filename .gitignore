@@ -1,0 +1,5 @@
+node_modules/
+backend/data/todos.json
+.env
+build/
+.DS_Store
