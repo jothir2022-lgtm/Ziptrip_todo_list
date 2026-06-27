@@ -1,4 +1,4 @@
-# Taskly — Full-Stack Todo Application
+# Enhanced — Full-Stack Todo Application
 
 A multi-page todo application with a **React** frontend and **Node.js/Express** backend. Data is persisted in a local JSON file.
 
